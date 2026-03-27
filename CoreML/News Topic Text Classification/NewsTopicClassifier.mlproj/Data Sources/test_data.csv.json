@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T10:01:12Z",
+        "event" : "dataSourceCreated",
+        "id" : "0694554A-3DFB-4D96-B2A3-CBA93378EBE1",
+        "subtitle" : "test_data.csv",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-27T10:01:12Z",
+  "dataPathRelativeToProjectURL" : "../News%20Topic%20Classification/test_data.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-27T10:01:12Z",
+    "dataSourceID" : "C171B181-AB97-4DFF-97A2-DC4AEF21D967",
+    "dataURL" : "file:///Users/federico/repos/swift-advanced-exercises/CoreML/News%20Topic%20Classification/test_data.csv"
+  },
+  "dataURL" : "file:///Users/federico/repos/swift-advanced-exercises/CoreML/News%20Topic%20Classification/test_data.csv",
+  "experimentIDs" : [
+    "F5346B14-EEE9-40A5-890F-FB1CF60AB287"
+  ],
+  "id" : "C171B181-AB97-4DFF-97A2-DC4AEF21D967",
+  "modifiedDate" : "2026-03-27T10:01:12Z",
+  "pathType" : 0,
+  "preferredFilename" : "test_data.csv",
+  "title" : "test_data.csv",
+  "version" : "1.0"
+}

@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T09:14:47Z",
+        "event" : "dataSourceCreated",
+        "id" : "902551B3-6BBD-4CCA-B6F9-C3F3AE1E06C0",
+        "subtitle" : "test",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-27T09:14:47Z",
+  "dataPathRelativeToProjectURL" : "../IMDB/test/",
+  "dataResult" : {
+    "createdDate" : "2026-03-27T09:14:47Z",
+    "dataSourceID" : "3821075C-65E6-41DD-A4C2-C9930F1D7DE4",
+    "dataURL" : "file:///Users/federico/repos/swift-advanced-exercises/CoreML/IMDB/test/"
+  },
+  "dataURL" : "file:///Users/federico/repos/swift-advanced-exercises/CoreML/IMDB/test/",
+  "experimentIDs" : [
+    "E4504A2F-7E14-4331-8111-3689D09E8655"
+  ],
+  "id" : "3821075C-65E6-41DD-A4C2-C9930F1D7DE4",
+  "modifiedDate" : "2026-03-27T09:14:47Z",
+  "pathType" : 0,
+  "preferredFilename" : "test",
+  "title" : "test",
+  "version" : "1.0"
+}

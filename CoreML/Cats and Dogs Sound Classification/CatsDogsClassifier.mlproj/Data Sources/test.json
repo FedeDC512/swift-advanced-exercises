@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:39Z",
+        "event" : "dataSourceCreated",
+        "id" : "CF74EE63-6750-4813-BCD5-87E60D3FA824",
+        "subtitle" : "test",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-27T10:49:39Z",
+  "dataPathRelativeToProjectURL" : "../audio-cats-and-dogs/cats_dogs/test/",
+  "dataResult" : {
+    "createdDate" : "2026-03-27T10:49:39Z",
+    "dataSourceID" : "DEEB7B1C-2730-46D9-8A21-D6B57D3B389E",
+    "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/"
+  },
+  "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/",
+  "experimentIDs" : [
+    "FD1712E0-D63D-4195-B95B-83E7E719BF09"
+  ],
+  "id" : "DEEB7B1C-2730-46D9-8A21-D6B57D3B389E",
+  "modifiedDate" : "2026-03-27T10:49:39Z",
+  "pathType" : 0,
+  "preferredFilename" : "test",
+  "title" : "test",
+  "version" : "1.0"
+}

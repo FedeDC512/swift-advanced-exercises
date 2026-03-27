@@ -1,0 +1,301 @@
+persona,film,voto
+Anna,The Godfather,4.0
+Anna,Pulp Fiction,3.7
+Anna,Inception,4.0
+Anna,The Dark Knight,4.3
+Anna,Interstellar,4.2
+Anna,The Matrix,4.0
+Anna,Fight Club,3.8
+Anna,Forrest Gump,3.2
+Anna,Titanic,2.9
+Anna,The Shawshank Redemption,3.5
+Anna,La La Land,3.0
+Anna,Whiplash,2.9
+Anna,Parasite,3.5
+Anna,Spirited Away,2.3
+Anna,Toy Story,2.1
+Anna,The Lion King,2.5
+Anna,Finding Nemo,2.0
+Anna,Up,2.6
+Anna,The Grand Budapest Hotel,3.1
+Anna,Mad Max: Fury Road,4.7
+Anna,Blade Runner 2049,3.9
+Anna,Get Out,3.3
+Anna,The Silence of the Lambs,3.7
+Anna,Her,3.6
+Anna,The Social Network,3.8
+Anna,Gladiator,4.0
+Anna,Alien,3.8
+Anna,Casablanca,2.7
+Anna,Joker,3.5
+Anna,Avatar,3.7
+Luca,The Godfather,3.3
+Luca,Pulp Fiction,3.2
+Luca,Inception,4.3
+Luca,The Dark Knight,4.1
+Luca,Interstellar,3.8
+Luca,The Matrix,4.3
+Luca,Fight Club,3.6
+Luca,Forrest Gump,2.8
+Luca,Titanic,2.4
+Luca,The Shawshank Redemption,3.0
+Luca,La La Land,2.3
+Luca,Whiplash,2.6
+Luca,Parasite,3.3
+Luca,Spirited Away,2.7
+Luca,Toy Story,1.9
+Luca,The Lion King,2.0
+Luca,Finding Nemo,1.7
+Luca,Up,2.0
+Luca,The Grand Budapest Hotel,3.2
+Luca,Mad Max: Fury Road,4.1
+Luca,Blade Runner 2049,3.6
+Luca,Get Out,2.9
+Luca,The Silence of the Lambs,3.3
+Luca,Her,3.0
+Luca,The Social Network,3.2
+Luca,Gladiator,3.9
+Luca,Alien,3.4
+Luca,Casablanca,2.4
+Luca,Joker,3.7
+Luca,Avatar,3.7
+Marco,The Godfather,3.7
+Marco,Pulp Fiction,3.4
+Marco,Inception,3.8
+Marco,The Dark Knight,4.1
+Marco,Interstellar,3.4
+Marco,The Matrix,4.1
+Marco,Fight Club,3.4
+Marco,Forrest Gump,2.9
+Marco,Titanic,2.8
+Marco,The Shawshank Redemption,3.2
+Marco,La La Land,2.3
+Marco,Whiplash,2.7
+Marco,Parasite,3.9
+Marco,Spirited Away,2.7
+Marco,Toy Story,1.7
+Marco,The Lion King,2.4
+Marco,Finding Nemo,1.9
+Marco,Up,2.0
+Marco,The Grand Budapest Hotel,3.1
+Marco,Mad Max: Fury Road,4.2
+Marco,Blade Runner 2049,3.9
+Marco,Get Out,3.3
+Marco,The Silence of the Lambs,3.0
+Marco,Her,3.0
+Marco,The Social Network,2.9
+Marco,Gladiator,3.9
+Marco,Alien,3.8
+Marco,Casablanca,2.8
+Marco,Joker,3.4
+Marco,Avatar,3.3
+Giulia,The Godfather,4.1
+Giulia,Pulp Fiction,4.0
+Giulia,Inception,2.9
+Giulia,The Dark Knight,3.0
+Giulia,Interstellar,4.2
+Giulia,The Matrix,3.1
+Giulia,Fight Club,4.1
+Giulia,Forrest Gump,4.5
+Giulia,Titanic,4.3
+Giulia,The Shawshank Redemption,4.7
+Giulia,La La Land,4.4
+Giulia,Whiplash,4.4
+Giulia,Parasite,4.1
+Giulia,Spirited Away,4.5
+Giulia,Toy Story,4.4
+Giulia,The Lion King,4.8
+Giulia,Finding Nemo,4.5
+Giulia,Up,4.9
+Giulia,The Grand Budapest Hotel,4.5
+Giulia,Mad Max: Fury Road,2.7
+Giulia,Blade Runner 2049,3.7
+Giulia,Get Out,3.1
+Giulia,The Silence of the Lambs,2.8
+Giulia,Her,3.8
+Giulia,The Social Network,5.0
+Giulia,Gladiator,3.8
+Giulia,Alien,2.7
+Giulia,Casablanca,4.7
+Giulia,Joker,4.0
+Giulia,Avatar,3.2
+Sara,The Godfather,3.8
+Sara,Pulp Fiction,3.5
+Sara,Inception,2.6
+Sara,The Dark Knight,3.4
+Sara,Interstellar,3.4
+Sara,The Matrix,2.9
+Sara,Fight Club,3.8
+Sara,Forrest Gump,3.9
+Sara,Titanic,4.6
+Sara,The Shawshank Redemption,4.8
+Sara,La La Land,4.5
+Sara,Whiplash,4.5
+Sara,Parasite,4.2
+Sara,Spirited Away,4.1
+Sara,Toy Story,4.3
+Sara,The Lion King,4.1
+Sara,Finding Nemo,4.2
+Sara,Up,4.0
+Sara,The Grand Budapest Hotel,3.9
+Sara,Mad Max: Fury Road,2.9
+Sara,Blade Runner 2049,3.3
+Sara,Get Out,2.7
+Sara,The Silence of the Lambs,2.7
+Sara,Her,3.6
+Sara,The Social Network,4.6
+Sara,Gladiator,3.9
+Sara,Alien,2.2
+Sara,Casablanca,4.4
+Sara,Joker,3.3
+Sara,Avatar,2.9
+Davide,The Godfather,3.9
+Davide,Pulp Fiction,3.6
+Davide,Inception,3.5
+Davide,The Dark Knight,3.1
+Davide,Interstellar,3.8
+Davide,The Matrix,3.1
+Davide,Fight Club,4.1
+Davide,Forrest Gump,4.5
+Davide,Titanic,4.5
+Davide,The Shawshank Redemption,5.0
+Davide,La La Land,4.3
+Davide,Whiplash,4.5
+Davide,Parasite,4.2
+Davide,Spirited Away,4.9
+Davide,Toy Story,4.9
+Davide,The Lion King,4.6
+Davide,Finding Nemo,4.7
+Davide,Up,4.9
+Davide,The Grand Budapest Hotel,4.1
+Davide,Mad Max: Fury Road,3.0
+Davide,Blade Runner 2049,4.1
+Davide,Get Out,3.3
+Davide,The Silence of the Lambs,2.7
+Davide,Her,3.7
+Davide,The Social Network,4.5
+Davide,Gladiator,4.2
+Davide,Alien,2.8
+Davide,Casablanca,4.7
+Davide,Joker,3.7
+Davide,Avatar,3.3
+Elena,The Godfather,3.5
+Elena,Pulp Fiction,3.6
+Elena,Inception,4.2
+Elena,The Dark Knight,3.7
+Elena,Interstellar,3.5
+Elena,The Matrix,3.5
+Elena,Fight Club,3.9
+Elena,Forrest Gump,2.8
+Elena,Titanic,2.7
+Elena,The Shawshank Redemption,2.9
+Elena,La La Land,2.2
+Elena,Whiplash,2.3
+Elena,Parasite,3.7
+Elena,Spirited Away,2.5
+Elena,Toy Story,1.9
+Elena,The Lion King,2.0
+Elena,Finding Nemo,1.9
+Elena,Up,2.2
+Elena,The Grand Budapest Hotel,2.6
+Elena,Mad Max: Fury Road,3.3
+Elena,Blade Runner 2049,3.1
+Elena,Get Out,4.9
+Elena,The Silence of the Lambs,4.7
+Elena,Her,3.0
+Elena,The Social Network,3.2
+Elena,Gladiator,3.3
+Elena,Alien,3.9
+Elena,Casablanca,2.2
+Elena,Joker,3.8
+Elena,Avatar,3.5
+Paolo,The Godfather,3.8
+Paolo,Pulp Fiction,3.7
+Paolo,Inception,3.6
+Paolo,The Dark Knight,4.1
+Paolo,Interstellar,3.3
+Paolo,The Matrix,4.1
+Paolo,Fight Club,3.9
+Paolo,Forrest Gump,2.7
+Paolo,Titanic,2.7
+Paolo,The Shawshank Redemption,3.1
+Paolo,La La Land,2.4
+Paolo,Whiplash,2.2
+Paolo,Parasite,4.2
+Paolo,Spirited Away,2.9
+Paolo,Toy Story,1.6
+Paolo,The Lion King,2.5
+Paolo,Finding Nemo,1.8
+Paolo,Up,2.1
+Paolo,The Grand Budapest Hotel,3.0
+Paolo,Mad Max: Fury Road,3.6
+Paolo,Blade Runner 2049,3.1
+Paolo,Get Out,4.4
+Paolo,The Silence of the Lambs,4.2
+Paolo,Her,3.2
+Paolo,The Social Network,3.3
+Paolo,Gladiator,3.2
+Paolo,Alien,4.5
+Paolo,Casablanca,2.4
+Paolo,Joker,4.1
+Paolo,Avatar,3.5
+Matteo,The Godfather,4.2
+Matteo,Pulp Fiction,4.3
+Matteo,Inception,3.4
+Matteo,The Dark Knight,4.6
+Matteo,Interstellar,3.9
+Matteo,The Matrix,4.0
+Matteo,Fight Club,4.0
+Matteo,Forrest Gump,3.9
+Matteo,Titanic,3.7
+Matteo,The Shawshank Redemption,4.0
+Matteo,La La Land,3.7
+Matteo,Whiplash,3.8
+Matteo,Parasite,3.9
+Matteo,Spirited Away,3.9
+Matteo,Toy Story,3.6
+Matteo,The Lion King,3.5
+Matteo,Finding Nemo,3.3
+Matteo,Up,3.6
+Matteo,The Grand Budapest Hotel,3.9
+Matteo,Mad Max: Fury Road,3.7
+Matteo,Blade Runner 2049,3.6
+Matteo,Get Out,3.2
+Matteo,The Silence of the Lambs,3.9
+Matteo,Her,3.9
+Matteo,The Social Network,4.3
+Matteo,Gladiator,4.1
+Matteo,Alien,3.2
+Matteo,Casablanca,3.8
+Matteo,Joker,3.6
+Matteo,Avatar,3.6
+Chiara,The Godfather,4.2
+Chiara,Pulp Fiction,4.0
+Chiara,Inception,3.7
+Chiara,The Dark Knight,3.7
+Chiara,Interstellar,3.6
+Chiara,The Matrix,3.3
+Chiara,Fight Club,3.5
+Chiara,Forrest Gump,3.6
+Chiara,Titanic,3.9
+Chiara,The Shawshank Redemption,3.7
+Chiara,La La Land,3.3
+Chiara,Whiplash,3.7
+Chiara,Parasite,3.7
+Chiara,Spirited Away,3.8
+Chiara,Toy Story,3.4
+Chiara,The Lion King,3.4
+Chiara,Finding Nemo,3.5
+Chiara,Up,3.2
+Chiara,The Grand Budapest Hotel,3.9
+Chiara,Mad Max: Fury Road,3.8
+Chiara,Blade Runner 2049,3.5
+Chiara,Get Out,3.1
+Chiara,The Silence of the Lambs,3.1
+Chiara,Her,4.0
+Chiara,The Social Network,3.8
+Chiara,Gladiator,3.4
+Chiara,Alien,3.1
+Chiara,Casablanca,3.9
+Chiara,Joker,3.7
+Chiara,Avatar,3.8

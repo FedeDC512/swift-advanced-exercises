@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T10:48:17Z",
+        "event" : "projectCreated",
+        "id" : "2FD97E6C-279F-45E3-9E4A-F7A12A9A962B",
+        "subtitle" : "CatsDogsClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Federico Agnello",
+  "createdDate" : "2026-03-27T10:48:17Z",
+  "description" : "",
+  "id" : "C25772F1-5359-4C1C-B65A-416ECBE98765",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-27T10:48:17Z",
+  "projectName" : "CatsDogsClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "audioClassifier",
+  "title" : "Sound Classification",
+  "version" : "1.1"
+}

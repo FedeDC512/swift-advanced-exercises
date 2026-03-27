@@ -1,0 +1,4810 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:19Z",
+        "event" : "trainingDataAdded",
+        "id" : "9062391F-D051-48F5-9D7E-C3CC5203E402",
+        "subtitle" : "train",
+        "title" : "Training Data Added"
+      }
+    ],
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:51Z",
+        "event" : "evaluationFinished",
+        "id" : "D44D543D-2213-44CB-A9A9-354D0B46DFAF",
+        "subtitle" : "CatsDogsClassifier 1",
+        "title" : "Testing Completed"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:43Z",
+        "event" : "trainingStarted",
+        "id" : "C5EA9610-129B-4D23-A9E3-FDDFB7239EC4",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:50Z",
+        "event" : "evaluationStarted",
+        "id" : "283EAE10-DA0F-44CF-B9D0-EF09243DB10E",
+        "subtitle" : "CatsDogsClassifier 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T10:48:18Z",
+        "event" : "experimentCreated",
+        "id" : "30F81675-D78F-4FD7-9CCD-03D6BDFE80EB",
+        "subtitle" : "CatsDogsClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:40Z",
+        "event" : "evaluationDataAdded",
+        "id" : "59E3FFA7-480E-4F79-9279-43B798DF57CD",
+        "subtitle" : "test",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:46Z",
+        "event" : "trainingFinished",
+        "id" : "1D1743A6-76AF-476F-9618-380EA15FE237",
+        "subtitle" : "Model converged at 15 iterations",
+        "title" : "Training Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-03-27T10:49:18Z"
+  },
+  "createdDate" : "2026-03-27T10:48:18Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-03-27T10:49:51Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "95d02c1d-f9f8-4423-8a0a-557b3722a1ae",
+    "modifiedDate" : "2026-03-27T10:49:51Z",
+    "previewType" : "soundClassifier",
+    "testingEvaluationEntity" : {
+      "accuracy" : 0.939393937587738,
+      "analysedDataType" : "datasource",
+      "createdDate" : "2026-03-27T10:48:18Z",
+      "dataResult" : {
+        "classesCount" : 2,
+        "createdDate" : "2026-03-27T10:49:18Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_90.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_99.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_54.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_3.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_48.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_126.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_143.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_43.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_44.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_89.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_88.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_57.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_79.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_137.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_66.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_12.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_91.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_62.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_85.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_59.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_129.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_24.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_76.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_112.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_130.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_28.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_61.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_78.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_158.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_135.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_66.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_34.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_8.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_73.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_152.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_46.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_144.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_115.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_19.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_20.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_148.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_75.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_42.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_82.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_64.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_36.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_90.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_49.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_45.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_9.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_59.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_17.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_56.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_58.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_67.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_29.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_112.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_86.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_82.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_110.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_133.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_7.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_14.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_3.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_24.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_15.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_55.wav",
+              [
+                "cat"
+              ]
+            ],
+            "labelStats" : {
+              "cat" : 39,
+              "dog" : 28
+            }
+          },
+          "issues" : [
+            {
+              "description" : "2 classes found, including cat, dog",
+              "severity" : "debug"
+            },
+            {
+              "description" : "67 sounds found, automatically creating validation set",
+              "severity" : "good"
+            },
+            {
+              "description" : "Smallest class is \"dog\" with 28 sounds",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"cat\" with 39 sounds",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 2,
+            "sampleCount" : 67
+          }
+        },
+        "dataSourceID" : "DEEB7B1C-2730-46D9-8A21-D6B57D3B389E",
+        "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/",
+        "itemsCount" : 67
+      },
+      "dataSourceID" : "DEEB7B1C-2730-46D9-8A21-D6B57D3B389E",
+      "evaluationResult" : {
+        "soundClassifier" : {
+          "accuracy" : 0.939393937587738,
+          "confusionMatrix" : [
+            {
+              "actual" : "cat",
+              "count" : 35,
+              "expected" : "cat"
+            },
+            {
+              "actual" : "cat",
+              "count" : 3,
+              "expected" : "dog"
+            },
+            {
+              "actual" : "dog",
+              "count" : 1,
+              "expected" : "cat"
+            },
+            {
+              "actual" : "dog",
+              "count" : 27,
+              "expected" : "dog"
+            }
+          ],
+          "detail" : {
+            "predictions" : {
+              "cat" : [
+                {
+                  "falsePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "dog",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.539266,
+                      "dog" : 0.46073404
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_7.wav"
+                  }
+                ],
+                {
+                  "truePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 7.893525e-13
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_126.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 1.735983e-11
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_133.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 4.4841783e-10
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_61.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99885434,
+                      "dog" : 0.001145686
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_75.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99998677,
+                      "dog" : 1.3219032e-05
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_88.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 3.2497866e-11
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_130.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999999,
+                      "dog" : 9.504239e-08
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_76.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999711,
+                      "dog" : 2.8907902e-05
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_66.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 8.3186225e-13
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_135.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99999976,
+                      "dog" : 2.6667811e-07
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_67.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 6.405528e-10
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_59.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 8.522123e-12
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_137.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999998,
+                      "dog" : 1.646398e-07
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_58.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999861,
+                      "dog" : 1.3873879e-05
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_17.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999998,
+                      "dog" : 1.94447e-07
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_144.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999968,
+                      "dog" : 3.2364953e-06
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_28.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9963108,
+                      "dog" : 0.0036892185
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_152.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 3.1442203e-11
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_29.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 2.0855967e-10
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_143.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.5792265,
+                      "dog" : 0.42077348
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_36.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 2.6567662e-10
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_158.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99999994,
+                      "dog" : 3.444243e-08
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_20.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9994908,
+                      "dog" : 0.00050920935
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_148.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9982292,
+                      "dog" : 0.001770796
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_3.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9999976,
+                      "dog" : 2.3819082e-06
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_82.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99520296,
+                      "dog" : 0.0047970703
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_112.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 2.2121392e-11
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_42.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99943084,
+                      "dog" : 0.00056917185
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_56.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 5.4938608e-15
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_110.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.99999964,
+                      "dog" : 3.3768464e-07
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_57.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 1.8449784e-08
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_129.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 2.0125883e-09
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_115.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.9985112,
+                      "dog" : 0.0014888226
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_85.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 8.782745e-09
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_86.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 1,
+                      "dog" : 1.8694056e-14
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_79.wav"
+                  }
+                ],
+                {
+                  "falseNegative" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "cat",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.23637435,
+                      "dog" : 0.7636256
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_14.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.031654675,
+                      "dog" : 0.96834534
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_24.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.3164144,
+                      "dog" : 0.6835856
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_90.wav"
+                  }
+                ]
+              ],
+              "dog" : [
+                {
+                  "truePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 8.025358e-12,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_89.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 7.224637e-08,
+                      "dog" : 0.99999994
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_62.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.6613821e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_48.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 3.8147476e-07,
+                      "dog" : 0.99999964
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_49.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 8.1337825e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_59.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 3.3023503e-06,
+                      "dog" : 0.9999967
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_64.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.644751e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_66.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 2.2887725e-09,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_99.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 7.822929e-10,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_73.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.37857112,
+                      "dog" : 0.62142885
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_8.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.5930146e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_9.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.1147023e-09,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_15.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 4.762857e-13,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_12.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.2219573e-07,
+                      "dog" : 0.9999999
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_34.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.015130318,
+                      "dog" : 0.98486966
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_3.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.039156117,
+                      "dog" : 0.96084386
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_24.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.04683429,
+                      "dog" : 0.9531657
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_19.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 4.3755426e-09,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_112.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 3.6805226e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_43.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.0460299e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_82.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 9.289236e-12,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_54.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.1572965e-12,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_78.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 1.18414905e-08,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_44.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.00026108723,
+                      "dog" : 0.99973893
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_45.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 9.5310426e-11,
+                      "dog" : 1
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_90.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.028974721,
+                      "dog" : 0.9710253
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_91.wav"
+                  },
+                  {
+                    "actual" : "dog",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.0031008543,
+                      "dog" : 0.9968991
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_46.wav"
+                  }
+                ],
+                {
+                  "falseNegative" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "dog",
+                    "predicted" : "cat",
+                    "predictions" : {
+                      "cat" : 0.539266,
+                      "dog" : 0.46073404
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/dog/dog_barking_7.wav"
+                  }
+                ],
+                {
+                  "falsePositive" : {
+
+                  }
+                },
+                [
+                  {
+                    "actual" : "cat",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.23637435,
+                      "dog" : 0.7636256
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_14.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.031654675,
+                      "dog" : 0.96834534
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_24.wav"
+                  },
+                  {
+                    "actual" : "cat",
+                    "predicted" : "dog",
+                    "predictions" : {
+                      "cat" : 0.3164144,
+                      "dog" : 0.6835856
+                    },
+                    "url" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/test/cat/cat_90.wav"
+                  }
+                ]
+              ]
+            }
+          },
+          "statsByLabel" : {
+            "cat" : {
+              "count" : 38,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9722222089767456,
+                  "recall" : 0.9210526347160339
+                }
+              }
+            },
+            "dog" : {
+              "count" : 28,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8999999761581421,
+                  "recall" : 0.9642857313156128
+                }
+              }
+            }
+          }
+        }
+      },
+      "finishTime" : "2026-03-27T10:49:51Z",
+      "id" : "10c7c448-c8cb-4eea-93ad-746379605fa5",
+      "startTime" : "2026-03-27T10:49:50Z"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-27T10:48:18Z",
+      "dataResult" : {
+        "classesCount" : 2,
+        "createdDate" : "2026-03-27T10:49:18Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_16.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_30.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_136.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_70.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_20.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_103.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_62.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_149.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_8.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_83.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_5.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_37.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_119.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_55.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_80.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_103.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_95.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_37.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_111.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_50.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_39.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_52.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_124.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_161.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_92.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_116.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_15.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_79.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_32.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_92.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_166.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_123.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_97.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_10.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_100.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_51.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_85.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_67.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_5.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_107.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_83.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_102.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_61.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_19.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_69.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_32.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_89.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_44.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_109.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_97.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_46.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_164.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_60.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_33.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_36.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_96.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_41.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_13.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_40.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_31.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_98.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_17.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_43.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_155.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_70.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_99.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_159.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_167.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_101.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_65.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_35.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_7.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_140.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_150.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_102.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_106.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_131.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_107.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_54.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_105.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_165.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_75.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_74.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_114.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_31.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_77.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_154.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_4.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_108.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_117.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_153.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_98.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_18.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_63.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_9.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_30.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_121.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_78.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_6.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_95.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_52.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_12.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_57.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_56.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_120.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_80.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_68.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_118.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_25.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_18.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_11.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_23.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_39.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_1.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_34.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_2.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_42.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_1.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_108.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_48.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_162.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_38.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_101.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_77.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_138.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_163.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_47.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_6.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_139.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_35.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_26.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_21.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_64.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_25.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_51.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_84.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_81.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_105.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_60.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_2.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_38.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_81.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_53.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_132.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_49.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_73.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_26.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_76.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_94.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_22.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_96.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_93.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_160.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_109.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_147.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_157.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_127.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_68.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_142.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_71.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_86.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_27.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_41.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_134.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_93.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_151.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_72.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_40.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_14.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_45.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_88.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_87.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_4.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_58.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_21.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_22.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_47.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_106.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_146.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_72.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_156.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_10.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_128.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_74.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_91.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_122.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_28.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_87.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_125.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_100.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_27.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_65.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_141.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_29.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_63.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_110.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_11.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_71.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_69.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_104.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_13.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_33.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_113.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_50.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_23.wav",
+              [
+                "cat"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_84.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_94.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_53.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_16.wav",
+              [
+                "dog"
+              ],
+              "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_0.wav",
+              [
+                "dog"
+              ]
+            ],
+            "labelStats" : {
+              "cat" : 125,
+              "dog" : 85
+            }
+          },
+          "issues" : [
+            {
+              "description" : "2 classes found, including cat, dog",
+              "severity" : "debug"
+            },
+            {
+              "description" : "210 sounds found, automatically creating validation set",
+              "severity" : "good"
+            },
+            {
+              "description" : "Smallest class is \"dog\" with 85 sounds",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"cat\" with 125 sounds",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 2,
+            "sampleCount" : 210
+          }
+        },
+        "dataSourceID" : "B2813A70-8FFE-4E67-97E4-53B3389DE465",
+        "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/",
+        "itemsCount" : 210
+      },
+      "dataSourceID" : "B2813A70-8FFE-4E67-97E4-53B3389DE465",
+      "evaluationResult" : {
+        "soundClassifier" : {
+          "accuracy" : 0.9853273137697517,
+          "confusionMatrix" : [
+            {
+              "actual" : "cat",
+              "count" : 1840,
+              "expected" : "cat"
+            },
+            {
+              "actual" : "cat",
+              "count" : 21,
+              "expected" : "dog"
+            },
+            {
+              "actual" : "dog",
+              "count" : 18,
+              "expected" : "cat"
+            },
+            {
+              "actual" : "dog",
+              "count" : 779,
+              "expected" : "dog"
+            }
+          ],
+          "statsByLabel" : {
+            "cat" : {
+              "count" : 1861,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9903121636167922,
+                  "recall" : 0.9887157442235357
+                }
+              }
+            },
+            "dog" : {
+              "count" : 797,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.97375,
+                  "recall" : 0.9774153074027604
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "8f61a05f-4753-49de-8e9a-f11a84c02946"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-03-27T10:48:18Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-27T10:49:18Z"
+      },
+      "evaluationResult" : {
+        "soundClassifier" : {
+          "accuracy" : 0.9923076923076923,
+          "confusionMatrix" : [
+            {
+              "actual" : "cat",
+              "count" : 85,
+              "expected" : "cat"
+            },
+            {
+              "actual" : "cat",
+              "count" : 1,
+              "expected" : "dog"
+            },
+            {
+              "actual" : "dog",
+              "count" : 44,
+              "expected" : "dog"
+            }
+          ],
+          "statsByLabel" : {
+            "cat" : {
+              "count" : 86,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.9883720930232558
+                }
+              }
+            },
+            "dog" : {
+              "count" : 44,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9777777777777777,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "74b0e695-2b68-416f-8140-c3d8032c5e6e"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "f820c981-bb57-4808-bca6-56d5c3d69b4b"
+  },
+  "evaluationState" : "evaluated",
+  "id" : "FD1712E0-D63D-4195-B95B-83E7E719BF09",
+  "modelEntity" : {
+    "createdDate" : "2026-03-27T10:48:18Z",
+    "experimentID" : "FD1712E0-D63D-4195-B95B-83E7E719BF09",
+    "id" : "36478699-4D8F-4BB3-BC08-733F6626F090",
+    "modelURL" : "Models/CatsDogsClassifier%201.mlmodel",
+    "modifiedDate" : "2026-03-27T10:48:18Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-03-27T10:49:51Z",
+  "preferredFilename" : "CatsDogsClassifier 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "soundAlgorithmType" : "transferLearning",
+    "soundClassifierMLPLayers" : [
+      2
+    ],
+    "soundClassifierType" : "logisticRegressor",
+    "soundFeatureExtractionType" : "audioFeaturePrint",
+    "soundIsCustomOverlapFactor" : false,
+    "soundOverlapFactor" : 0.5,
+    "soundTimeWindow" : 0.975,
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "audioClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "CatsDogsClassifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 2,
+      "createdDate" : "2026-03-27T10:49:18Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_16.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_30.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_136.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_70.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_20.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_103.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_62.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_149.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_8.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_83.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_5.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_37.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_119.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_55.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_80.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_103.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_95.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_37.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_111.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_50.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_39.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_52.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_124.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_161.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_92.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_116.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_15.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_79.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_32.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_92.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_166.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_123.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_97.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_10.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_100.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_51.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_85.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_67.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_5.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_107.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_83.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_102.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_61.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_19.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_69.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_32.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_89.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_44.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_109.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_97.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_46.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_164.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_60.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_33.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_36.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_96.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_41.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_13.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_40.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_31.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_98.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_17.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_43.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_155.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_70.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_99.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_159.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_167.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_101.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_65.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_35.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_7.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_140.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_150.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_102.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_106.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_131.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_107.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_54.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_105.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_165.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_75.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_74.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_114.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_31.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_77.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_154.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_4.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_108.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_117.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_153.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_98.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_18.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_63.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_9.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_30.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_121.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_78.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_6.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_95.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_52.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_12.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_57.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_56.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_120.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_80.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_68.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_118.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_25.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_18.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_11.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_23.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_39.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_1.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_34.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_2.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_42.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_1.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_108.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_48.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_162.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_38.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_101.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_77.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_138.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_163.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_47.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_6.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_139.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_35.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_26.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_21.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_64.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_25.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_51.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_84.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_81.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_105.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_60.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_2.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_38.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_81.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_53.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_132.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_49.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_73.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_26.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_76.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_94.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_22.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_96.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_93.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_160.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_109.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_147.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_157.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_127.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_68.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_142.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_71.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_86.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_27.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_41.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_134.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_93.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_151.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_72.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_40.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_14.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_45.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_88.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_87.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_4.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_58.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_21.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_22.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_47.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_106.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_146.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_72.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_156.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_10.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_128.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_74.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_91.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_122.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_28.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_87.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_125.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_100.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_27.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_65.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_141.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_29.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_63.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_110.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_11.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_71.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_69.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_104.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_13.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_33.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_113.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_50.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/cat/cat_23.wav",
+            [
+              "cat"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_84.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_94.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_53.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_16.wav",
+            [
+              "dog"
+            ],
+            "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/dog/dog_barking_0.wav",
+            [
+              "dog"
+            ]
+          ],
+          "labelStats" : {
+            "cat" : 125,
+            "dog" : 85
+          }
+        },
+        "issues" : [
+          {
+            "description" : "2 classes found, including cat, dog",
+            "severity" : "debug"
+          },
+          {
+            "description" : "210 sounds found, automatically creating validation set",
+            "severity" : "good"
+          },
+          {
+            "description" : "Smallest class is \"dog\" with 85 sounds",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"cat\" with 125 sounds",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 2,
+          "sampleCount" : 210
+        }
+      },
+      "dataSourceID" : "B2813A70-8FFE-4E67-97E4-53B3389DE465",
+      "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/",
+      "itemsCount" : 210
+    },
+    "dataSourceID" : "B2813A70-8FFE-4E67-97E4-53B3389DE465",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-03-27T10:49:46Z",
+    "progress" : [
+      {
+        "count" : 0,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "scTrainingColumnHeader" : {
+          "elapsedTime" : 0.03920400142669678,
+          "hasValidation" : true,
+          "iterationCount" : 2,
+          "trainingAccuracy" : 0.700150489089541,
+          "validationAccuracy" : 0.6615384615384615
+        },
+        "tableDone" : false,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "scTrainingColumnHeader" : {
+          "elapsedTime" : 0.04163503646850586,
+          "hasValidation" : true,
+          "iterationCount" : 3,
+          "trainingAccuracy" : 0.700150489089541,
+          "validationAccuracy" : 0.6615384615384615
+        },
+        "tableDone" : false,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "scTrainingColumnHeader" : {
+          "elapsedTime" : 0.04745602607727051,
+          "hasValidation" : true,
+          "iterationCount" : 4,
+          "trainingAccuracy" : 0.8559066967644846,
+          "validationAccuracy" : 0.9
+        },
+        "tableDone" : false,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "scTrainingColumnHeader" : {
+          "elapsedTime" : 0.05151093006134033,
+          "hasValidation" : true,
+          "iterationCount" : 5,
+          "trainingAccuracy" : 0.8987960872836719,
+          "validationAccuracy" : 0.9538461538461539
+        },
+        "tableDone" : false,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 6,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 7,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 8,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 9,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 11,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "scTrainingColumnHeader" : {
+          "elapsedTime" : 0.07567501068115234,
+          "hasValidation" : true,
+          "iterationCount" : 11,
+          "trainingAccuracy" : 0.9762979683972912,
+          "validationAccuracy" : 0.9923076923076923
+        },
+        "tableDone" : false,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 12,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 13,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 14,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "scTrainingColumnHeader" : {
+          "elapsedTime" : 0.08703494071960449,
+          "hasValidation" : true,
+          "iterationCount" : 15,
+          "trainingAccuracy" : 0.9853273137697517,
+          "validationAccuracy" : 0.9923076923076923
+        },
+        "tableDone" : true,
+        "tableIndex" : 2
+      },
+      {
+        "count" : 16,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 17,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 18,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 19,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 21,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 22,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 23,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 24,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 26,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 27,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 29,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 30,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 31,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 32,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 33,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 34,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 35,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 36,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 37,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 38,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 39,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 40,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 41,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 42,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 43,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 44,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 45,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 46,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 47,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 48,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 49,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 50,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 51,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 52,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 53,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 54,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 55,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 56,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 57,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 58,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 59,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 60,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 61,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 62,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 63,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 64,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 65,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 66,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 67,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 68,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 69,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 70,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 71,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 72,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 73,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 74,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 75,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 76,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 77,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 78,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 79,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 80,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 81,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 82,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 83,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 84,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 85,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 86,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 87,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 88,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 89,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 90,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 91,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 92,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 93,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 94,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 95,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 96,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 97,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 98,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 99,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 100,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 101,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 102,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 103,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 104,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 105,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 106,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 107,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 108,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 109,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 110,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 111,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 112,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 113,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 114,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 115,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 116,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 117,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 118,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 119,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 120,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 121,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 122,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 123,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 124,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 125,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 126,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 127,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 128,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 129,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 130,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 131,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 132,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 133,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 134,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 135,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 136,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 137,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 138,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 139,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 140,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 141,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 142,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 143,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 144,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 145,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 146,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 147,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 148,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 149,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 150,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 151,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 152,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 153,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 154,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 155,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 156,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 157,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 158,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 159,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 160,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 161,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 162,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 163,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 164,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 165,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 166,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 167,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 168,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 169,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 170,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 173,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 174,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 175,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 176,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 177,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 178,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 179,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 180,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 181,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 182,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 183,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 184,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 185,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 186,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 187,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 188,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 189,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 190,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 191,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 192,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 193,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 194,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 195,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 196,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 197,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 198,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 199,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 200,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      }
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-03-27T10:49:43Z",
+    "trainingAccuracy" : 0.9853273137697517,
+    "trainingResults" : {
+      "soundClassifier" : {
+        "accuracy" : 0.9853273137697517,
+        "confusionMatrix" : [
+          {
+            "actual" : "cat",
+            "count" : 1840,
+            "expected" : "cat"
+          },
+          {
+            "actual" : "cat",
+            "count" : 21,
+            "expected" : "dog"
+          },
+          {
+            "actual" : "dog",
+            "count" : 18,
+            "expected" : "cat"
+          },
+          {
+            "actual" : "dog",
+            "count" : 779,
+            "expected" : "dog"
+          }
+        ],
+        "statsByLabel" : {
+          "cat" : {
+            "count" : 1861,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9903121636167922,
+                "recall" : 0.9887157442235357
+              }
+            }
+          },
+          "dog" : {
+            "count" : 797,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.97375,
+                "recall" : 0.9774153074027604
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0.9923076923076923,
+    "validationResults" : {
+      "soundClassifier" : {
+        "accuracy" : 0.9923076923076923,
+        "confusionMatrix" : [
+          {
+            "actual" : "cat",
+            "count" : 85,
+            "expected" : "cat"
+          },
+          {
+            "actual" : "cat",
+            "count" : 1,
+            "expected" : "dog"
+          },
+          {
+            "actual" : "dog",
+            "count" : 44,
+            "expected" : "dog"
+          }
+        ],
+        "statsByLabel" : {
+          "cat" : {
+            "count" : 86,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.9883720930232558
+              }
+            }
+          },
+          "dog" : {
+            "count" : 44,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9777777777777777,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-03-27T10:49:18Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

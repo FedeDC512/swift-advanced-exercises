@@ -1,0 +1,41 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-27T11:34:15Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "DAB5630E-82F7-49D2-AEB3-D1DF05BB6514",
+        "subtitle" : "MoviesRecommender 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-03-27T11:34:15Z",
+        "event" : "dataSourceMetrics",
+        "id" : "DA5231B4-8C70-4420-BC1E-B125AFE798D8",
+        "subtitle" : "30 Classes, 300 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-27T11:34:04Z",
+  "dataPathRelativeToProjectURL" : "../dataset_film_utenti.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-27T11:34:04Z",
+    "dataSourceID" : "0C7164BD-1779-4289-97E3-97519EDD94F2",
+    "dataURL" : "file:///Users/federico/Desktop/dataset_film_utenti.csv"
+  },
+  "dataURL" : "file:///Users/federico/Desktop/dataset_film_utenti.csv",
+  "experimentIDs" : [
+    "CEC73DA7-805C-48D7-97DD-1DEA2D10BE00"
+  ],
+  "id" : "0C7164BD-1779-4289-97E3-97519EDD94F2",
+  "modifiedDate" : "2026-03-27T11:34:15Z",
+  "pathType" : 0,
+  "preferredFilename" : "dataset_film_utenti.csv",
+  "title" : "dataset_film_utenti.csv",
+  "version" : "1.0"
+}

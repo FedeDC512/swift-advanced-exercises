@@ -1,0 +1,51 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:43Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "23D282B3-FE14-4742-8ECB-CA6BFBB84621",
+        "subtitle" : "CatsDogsClassifier 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:43Z",
+        "event" : "dataSourceMetrics",
+        "id" : "1443E2AC-D903-442A-9A56-CDC99B38E99C",
+        "subtitle" : "2 Classes, 210 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T10:49:18Z",
+        "event" : "dataSourceCreated",
+        "id" : "ED2865D5-84FB-495C-81CA-9A1FA9477301",
+        "subtitle" : "train",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-27T10:49:18Z",
+  "dataPathRelativeToProjectURL" : "../audio-cats-and-dogs/cats_dogs/train/",
+  "dataResult" : {
+    "createdDate" : "2026-03-27T10:49:18Z",
+    "dataSourceID" : "B2813A70-8FFE-4E67-97E4-53B3389DE465",
+    "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/"
+  },
+  "dataURL" : "file:///Users/federico/Desktop/audio-cats-and-dogs/cats_dogs/train/",
+  "experimentIDs" : [
+    "FD1712E0-D63D-4195-B95B-83E7E719BF09"
+  ],
+  "id" : "B2813A70-8FFE-4E67-97E4-53B3389DE465",
+  "modifiedDate" : "2026-03-27T10:49:43Z",
+  "pathType" : 0,
+  "preferredFilename" : "train",
+  "title" : "train",
+  "version" : "1.0"
+}

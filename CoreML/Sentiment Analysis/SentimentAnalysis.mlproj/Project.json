@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T09:13:18Z",
+        "event" : "projectCreated",
+        "id" : "47A046F3-424A-4A04-8ADE-70CF104C44C7",
+        "subtitle" : "SentimentAnalysis",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Federico Agnello",
+  "createdDate" : "2026-03-27T09:13:18Z",
+  "description" : "",
+  "id" : "293DF33E-7B24-4E16-ADFC-A87DA5C3BA93",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-27T09:13:18Z",
+  "projectName" : "SentimentAnalysis",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

@@ -1,0 +1,51 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-27T09:14:53Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "44B94441-56F8-4F8D-932E-B609226974A5",
+        "subtitle" : "SentimentAnalysis 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T09:14:41Z",
+        "event" : "dataSourceCreated",
+        "id" : "9E9DDA65-80FE-4BC7-B33B-A96957126182",
+        "subtitle" : "train",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-03-27T09:14:53Z",
+        "event" : "dataSourceMetrics",
+        "id" : "B2C35238-8C9F-4662-A8CE-C2303748AC8C",
+        "subtitle" : "2 Classes, 8.000 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-27T09:14:41Z",
+  "dataPathRelativeToProjectURL" : "../IMDB/train/",
+  "dataResult" : {
+    "createdDate" : "2026-03-27T09:14:41Z",
+    "dataSourceID" : "D21DDD61-181B-4BB0-AD93-326BA13CDD7E",
+    "dataURL" : "file:///Users/federico/repos/swift-advanced-exercises/CoreML/IMDB/train/"
+  },
+  "dataURL" : "file:///Users/federico/repos/swift-advanced-exercises/CoreML/IMDB/train/",
+  "experimentIDs" : [
+    "E4504A2F-7E14-4331-8111-3689D09E8655"
+  ],
+  "id" : "D21DDD61-181B-4BB0-AD93-326BA13CDD7E",
+  "modifiedDate" : "2026-03-27T09:14:53Z",
+  "pathType" : 0,
+  "preferredFilename" : "train",
+  "title" : "train",
+  "version" : "1.0"
+}

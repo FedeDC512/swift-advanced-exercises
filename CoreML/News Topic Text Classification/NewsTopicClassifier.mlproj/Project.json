@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T10:01:04Z",
+        "event" : "projectCreated",
+        "id" : "69971305-7CFB-45CA-BFE9-4316AD6A0C3D",
+        "subtitle" : "NewsTopicClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Federico Agnello",
+  "createdDate" : "2026-03-27T10:01:04Z",
+  "description" : "",
+  "id" : "83F92601-D80B-45D2-A064-4F054867632A",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-27T10:01:04Z",
+  "projectName" : "NewsTopicClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

@@ -1,0 +1,299 @@
+{
+  "activityEntities" : [
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-03-27T11:34:15Z",
+        "event" : "trainingFinished",
+        "id" : "8186F22F-05BA-4096-9745-309BE9CB2451",
+        "subtitle" : "MoviesRecommender 1",
+        "title" : "Training Completed"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T11:33:02Z",
+        "event" : "experimentCreated",
+        "id" : "DB4991F3-5543-456A-BD8B-92C3422EED2E",
+        "subtitle" : "MoviesRecommender 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-27T11:34:15Z",
+        "event" : "trainingStarted",
+        "id" : "99F724B6-E3A1-482D-9F32-36D31284D806",
+        "subtitle" : "MoviesRecommender 1",
+        "title" : "Training Started"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-27T11:34:04Z",
+        "event" : "trainingDataAdded",
+        "id" : "554210EC-EC0B-48A6-B278-2EB75C870B05",
+        "subtitle" : "dataset_film_utenti.csv",
+        "title" : "Training Data Added"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-03-27T11:34:04Z"
+  },
+  "createdDate" : "2026-03-27T11:33:02Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-03-27T11:34:16Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "none",
+        "createdDate" : "2026-03-27T11:34:15Z",
+        "dataResult" : {
+
+        },
+        "id" : "91507a1d-bd63-4136-bd6c-fc5f77f587c2"
+      }
+    ],
+    "id" : "34541f8d-d1dd-4c54-90cf-2ef8cfa5197f",
+    "modifiedDate" : "2026-03-27T11:34:16Z",
+    "previewType" : "recommender",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-27T11:33:02Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-27T11:34:04Z"
+      },
+      "id" : "cc44d0b1-f50b-4f54-bf11-cb8b35942870"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-27T11:33:02Z",
+      "dataResult" : {
+        "classesCount" : 30,
+        "createdDate" : "2026-03-27T11:34:04Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 30,
+            "sampleCount" : 300
+          }
+        },
+        "dataSourceID" : "0C7164BD-1779-4289-97E3-97519EDD94F2",
+        "dataURL" : "file:///Users/federico/Desktop/dataset_film_utenti.csv",
+        "itemsCount" : 300
+      },
+      "dataSourceID" : "0C7164BD-1779-4289-97E3-97519EDD94F2",
+      "evaluationResult" : {
+        "recommender" : {
+          "mAP" : 1,
+          "metrics" : [
+            {
+              "cutoff" : 1,
+              "precision" : 1
+            },
+            {
+              "cutoff" : 2,
+              "precision" : 1
+            },
+            {
+              "cutoff" : 3,
+              "precision" : 1
+            },
+            {
+              "cutoff" : 4,
+              "precision" : 1
+            },
+            {
+              "cutoff" : 5,
+              "precision" : 1
+            }
+          ]
+        }
+      },
+      "id" : "456e5235-c196-485f-a5d6-be7b7f43cba1"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-03-27T11:33:02Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-27T11:34:04Z"
+      },
+      "id" : "8b82c6b8-75d7-4d3e-989e-00c3c90c4af2"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "bdeb328e-8d00-47a2-9f45-7f0d8a1c4029"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "CEC73DA7-805C-48D7-97DD-1DEA2D10BE00",
+  "modelEntity" : {
+    "createdDate" : "2026-03-27T11:33:02Z",
+    "experimentID" : "CEC73DA7-805C-48D7-97DD-1DEA2D10BE00",
+    "id" : "1F9F32CF-F713-4640-A132-C33CF79D9B5B",
+    "modelURL" : "Models/MoviesRecommender%201.mlmodel",
+    "modifiedDate" : "2026-03-27T11:33:02Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-03-27T11:34:16Z",
+  "preferredFilename" : "MoviesRecommender 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "rmItemColumn" : "film",
+    "rmRatingColumn" : "voto",
+    "rmUserColumn" : "persona",
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "String",
+      "String",
+      "Double"
+    ],
+    "suggestedColumnValues" : [
+      "",
+      "",
+      ""
+    ],
+    "suggestedColumns" : [
+      "film",
+      "persona",
+      "voto"
+    ],
+    "taskType" : "recommender",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "MoviesRecommender 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 30,
+      "columnTypes" : [
+        "String",
+        "String",
+        "Double"
+      ],
+      "columnValues" : [
+        "",
+        "",
+        ""
+      ],
+      "columns" : [
+        "film",
+        "persona",
+        "voto"
+      ],
+      "createdDate" : "2026-03-27T11:34:04Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 30,
+          "sampleCount" : 300
+        }
+      },
+      "dataSourceID" : "0C7164BD-1779-4289-97E3-97519EDD94F2",
+      "dataURL" : "file:///Users/federico/Desktop/dataset_film_utenti.csv",
+      "itemsCount" : 300
+    },
+    "dataSourceID" : "0C7164BD-1779-4289-97E3-97519EDD94F2",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-03-27T11:34:15Z",
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-03-27T11:34:15Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "recommender" : {
+        "mAP" : 1,
+        "metrics" : [
+          {
+            "cutoff" : 1,
+            "precision" : 1
+          },
+          {
+            "cutoff" : 2,
+            "precision" : 1
+          },
+          {
+            "cutoff" : 3,
+            "precision" : 1
+          },
+          {
+            "cutoff" : 4,
+            "precision" : 1
+          },
+          {
+            "cutoff" : 5,
+            "precision" : 1
+          }
+        ]
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-03-27T11:34:04Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

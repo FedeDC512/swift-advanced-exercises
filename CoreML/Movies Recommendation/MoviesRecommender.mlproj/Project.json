@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-27T11:33:02Z",
+        "event" : "projectCreated",
+        "id" : "97261393-310B-462C-B8DA-E37A23D17D0B",
+        "subtitle" : "MoviesRecommender",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Federico Agnello",
+  "createdDate" : "2026-03-27T11:33:02Z",
+  "description" : "",
+  "id" : "E669DF94-E96E-46A0-B83E-04554D094D98",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-27T11:33:02Z",
+  "projectName" : "MoviesRecommender",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "recommender",
+  "title" : "Recommendation",
+  "version" : "1.1"
+}
