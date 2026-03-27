@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_stanzasegreta._tcp</string>
+		<string>_s1._tcp</string>
+		<string>_s2._tcp</string>
+		<string>_s3._tcp</string>
+		<string>_s4._tcp</string>
+		<string>_s5._tcp</string>
+		<string>_s6._tcp</string>
+		<string>_s7._tcp</string>
+		<string>_s8._tcp</string>
+		<string>_s9._tcp</string>
+		<string>_s10._tcp</string>
+	</array>
+</dict>
+</plist>
