@@ -2,15 +2,16 @@
 
 Collection of Swift Exercises and Challenges done during the "Apple Foundation Program 2026 - Advanced Course" at the University of Palermo
 
-Collection of exercises completed during the first edition of the "Apple Foundation Program 2026 - Advanced Course" at the University of Palermo. These exercises cover **Presentation Challenges**, **SwiftUI**, **SpriteKit**, **Multipeer Connectivity**, **Sketch**, and **ARKit** and were developed using a Challenge-Based Learning approach.
+Collection of exercises completed during the first edition of the "Apple Foundation Program 2026 - Advanced Course" at the University of Palermo. These exercises cover **Presentation Challenges**, **SwiftUI**, **SpriteKit**, **MultiPeer Connectivity**, **Sketch**, **CoreML**, and **ARKit** and were developed using a Challenge-Based Learning approach.
 
 ## Table of Contents
 
 - [Presentation Challenges](#presentation-challenges)
 - [SwiftUI](#swiftui-exercises)
 - [SpriteKit](#spritekit-exercises)
-- [Multipeer Connectivity](#multipeer-connectivity-exercises)
+- [MultiPeer Connectivity](#multipeer-connectivity-exercises)
 - [Sketch](#sketch-exercises)
+- [CoreML](#coreml-exercises)
 - [ARKit](#arkit-exercises)
 
 ## Presentation Challenges
@@ -20,7 +21,7 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 - [x] Explore tvOS Frameworks Presentation (Metal, SceneKit)
 - [x] Analyze Gamification App (Hacktivate)
 - [x] Explore ARKit Apps (FAM: Time Capsule, AR Chess Games, Human Anatomy AR)
-- [x] ARKit Guiding Questions
+- [ ] ARKit Guiding Questions
 
 ## SwiftUI Exercises
 - [ ] My First App
@@ -33,14 +34,23 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 - [ ] Runner with Hat
 - [ ] Gyroscope Gravity Flowers
 - [ ] Pinball Game
+- [ ] Pinball Game for watchOS
+- [ ] Felix Game for tvOS
+- [ ] Felix Game for watchOS
 
-## Multipeer Connectivity Exercises
-- [x] Multipeer Chat Demo (Multipeer)
-- [ ] MVVM with Multipeer (Multipeer)
-- [x] Peer-to-Peer Chat (Multipeer)
+## MultiPeer Connectivity Exercises
+- [x] MultiPeer Chat Demo
+- [x] MultiPeer Single-Room Chat
+- [ ] Peer-to-Peer Chat
 
 ## Sketch Exercises
 - [x] tvOS Top Shelf Prototype
+
+## CoreML Exercises
+- [x] Sentiment Analysis using IMDB Movies Reviews
+- [x] Text Classification using [News Topic Classification](https://www.kaggle.com/datasets/vrindakallu/ag-news-topic-classification/)
+- [x] Sound Classification using [Audio Cats and Dogs](https://www.kaggle.com/datasets/mmoreaux/audio-cats-and-dogs)
+- [x] Movies Recommendation
 
 ## ARKit Exercises
 - [ ] Placehlder
