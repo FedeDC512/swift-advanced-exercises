@@ -8,7 +8,6 @@
 import Foundation
 import MultipeerConnectivity
 import SwiftUI
-import Combine
 
 class MultipeerViewModel: ObservableObject, MultipeerServiceDelegate {
     @Published var connectedPeers: [MCPeerID] = []

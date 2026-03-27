@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var name = ""
-    @State private var roomName: String = ""
+    @State private var roomName: String = "s1"
     var body: some View {
         NavigationStack{
             TextField("Inserisci nome", text:$name )
