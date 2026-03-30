@@ -45,6 +45,7 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 
 ## Sketch Exercises
 - [x] tvOS Top Shelf Prototype
+- [x] watchOS Timer App Prototype
 
 ## CoreML Exercises
 - [x] Sentiment Analysis using IMDB Movies Reviews
