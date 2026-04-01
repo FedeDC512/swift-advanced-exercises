@@ -55,4 +55,6 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 - [x] Movies Recommendation
 
 ## ARKit Exercises
-- [ ] Placehlder
+- [x] Cube Demo
+- [x] Missile Movement
+- [x] Car Movement
