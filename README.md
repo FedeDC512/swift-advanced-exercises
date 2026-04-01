@@ -42,6 +42,7 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 - [x] MultiPeer Chat Demo
 - [x] MultiPeer Single-Room Chat
 - [ ] Peer-to-Peer Chat
+- [x] Rock Paper Scissors for iOS and tvOS
 
 ## Sketch Exercises
 - [x] tvOS Top Shelf Prototype
