@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-04-09T09:53:17Z",
+        "event" : "projectCreated",
+        "id" : "086FF8EE-C135-48CF-B8A8-DF9741914673",
+        "subtitle" : "BostonTabularRegressor",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Federico Agnello",
+  "createdDate" : "2026-04-09T09:53:17Z",
+  "description" : "",
+  "id" : "BA3958B0-B79B-45E5-B449-95CF11C1DB32",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-04-09T09:53:17Z",
+  "projectName" : "BostonTabularRegressor",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalRegresor",
+  "title" : "Tabular Regression",
+  "version" : "1.1"
+}

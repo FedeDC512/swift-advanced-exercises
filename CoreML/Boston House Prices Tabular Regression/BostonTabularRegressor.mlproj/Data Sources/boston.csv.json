@@ -1,0 +1,184 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-04-09T09:53:51Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "364581EC-A965-43D3-8D7D-8CD7A231D3AB",
+        "subtitle" : "BostonTabularRegressor 1",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-09T09:58:52Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "2CEBE90B-A12E-4B73-A834-BF766CF6AAC9",
+        "subtitle" : "BostonTabularRegressor RandomForest",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-09T09:59:47Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "FC0C8FBF-97A3-45B6-BC41-D9272FC28ED0",
+        "subtitle" : "BostonTabularRegressor BoostedTree",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-09T10:01:09Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "3671D8FF-50DE-43E0-874C-C659F9288BAA",
+        "subtitle" : "BostonTabularRegressor DecisionTree",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-09T10:02:04Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "D9CF1077-33A3-43B1-B51E-79D0946C114A",
+        "subtitle" : "BostonTabularRegressor LinearRegression",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-04-09T09:53:51Z",
+        "event" : "dataSourceMetrics",
+        "id" : "BAE0B892-A820-454F-82F1-D5E64B127A04",
+        "subtitle" : "506 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-09T09:58:52Z",
+        "event" : "dataSourceMetrics",
+        "id" : "D863A8CE-1F4D-4A60-86B1-461B83D5325E",
+        "subtitle" : "506 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-09T09:59:47Z",
+        "event" : "dataSourceMetrics",
+        "id" : "D50A9BA2-7730-460E-A411-5E3886AF1D35",
+        "subtitle" : "506 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-09T10:01:09Z",
+        "event" : "dataSourceMetrics",
+        "id" : "8CA8AA0C-3FEC-4477-A9D9-278FD2C8CE6F",
+        "subtitle" : "506 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-09T10:02:04Z",
+        "event" : "dataSourceMetrics",
+        "id" : "80E2B7F0-5DE4-46C6-9CBC-D2E6CCF5ADFD",
+        "subtitle" : "506 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-04-09T09:53:26Z",
+  "dataPathRelativeToProjectURL" : "../../../../../Downloads/boston.csv/",
+  "dataResult" : {
+    "columnTypes" : [
+      "Double",
+      "Double",
+      "Double",
+      "Int",
+      "Double",
+      "Double",
+      "Double",
+      "Double",
+      "Int",
+      "Double",
+      "Double",
+      "Double",
+      "Double",
+      "Double"
+    ],
+    "columnValues" : [
+      "0,01, 0,03, 0,03, 0,03, 0,07, 0,03, 0,09, 0,14, 0,21, 0,17, 0,22, 0,12, 0,09, 0,63, 0,64, 0,63, 1,05, 0,78, 0,80, 0,73, 1,25, 0,85, 1,23, 0,99, 0,75, 0,84, 0,67, 0,96, 0,77, 1,00",
+      "18,00, 0,00, 0,00, 0,00, 0,00, 0,00, 12,50, 12,50, 12,50, 12,50, 12,50, 12,50, 12,50, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00, 0,00",
+      "2,31, 7,07, 7,07, 2,18, 2,18, 2,18, 7,87, 7,87, 7,87, 7,87, 7,87, 7,87, 7,87, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14, 8,14",
+      "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+      "0,54, 0,47, 0,47, 0,46, 0,46, 0,46, 0,52, 0,52, 0,52, 0,52, 0,52, 0,52, 0,52, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54, 0,54",
+      "6,58, 6,42, 7,18, 7,00, 7,15, 6,43, 6,01, 6,17, 5,63, 6,00, 6,38, 6,01, 5,89, 5,95, 6,10, 5,83, 5,94, 5,99, 5,46, 5,73, 5,57, 5,96, 6,14, 5,81, 5,92, 5,60, 5,81, 6,05, 6,50, 6,67",
+      "65,20, 78,90, 61,10, 45,80, 54,20, 58,70, 66,60, 96,10, 100,00, 85,90, 94,30, 82,90, 39,00, 61,80, 84,50, 56,50, 29,30, 81,70, 36,60, 69,50, 98,10, 89,20, 91,70, 100,00, 94,10, 85,70, 90,30, 88,80, 94,40, 87,30",
+      "4,09, 4,97, 4,97, 6,06, 6,06, 6,06, 5,56, 5,95, 6,08, 6,59, 6,35, 6,23, 5,45, 4,71, 4,46, 4,50, 4,50, 4,26, 3,80, 3,80, 3,80, 4,01, 3,98, 4,10, 4,40, 4,45, 4,68, 4,45, 4,45, 4,24",
+      "1, 2, 2, 3, 3, 3, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4",
+      "296,00, 242,00, 242,00, 222,00, 222,00, 222,00, 311,00, 311,00, 311,00, 311,00, 311,00, 311,00, 311,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00, 307,00",
+      "15,30, 17,80, 17,80, 18,70, 18,70, 18,70, 15,20, 15,20, 15,20, 15,20, 15,20, 15,20, 15,20, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00, 21,00",
+      "396,90, 396,90, 392,83, 394,63, 396,90, 394,12, 395,60, 396,90, 386,63, 386,71, 392,52, 396,90, 390,50, 396,90, 380,02, 395,62, 386,85, 386,75, 288,99, 390,95, 376,57, 392,53, 396,90, 394,54, 394,33, 303,42, 376,88, 306,38, 387,94, 380,23",
+      "4,98, 9,14, 4,03, 2,94, 5,33, 5,21, 12,43, 19,15, 29,93, 17,10, 20,45, 13,27, 15,71, 8,26, 10,26, 8,47, 6,58, 14,67, 11,69, 11,28, 21,02, 13,83, 18,72, 19,88, 16,30, 16,51, 14,81, 17,28, 12,80, 11,98",
+      "24,00, 21,60, 34,70, 33,40, 36,20, 28,70, 22,90, 27,10, 16,50, 18,90, 15,00, 18,90, 21,70, 20,40, 18,20, 19,90, 23,10, 17,50, 20,20, 18,20, 13,60, 19,60, 15,20, 14,50, 15,60, 13,90, 16,60, 14,80, 18,40, 21,00"
+    ],
+    "columns" : [
+      "CRIM",
+      "ZN",
+      "INDUS",
+      "CHAS",
+      "NOX",
+      "RM",
+      "AGE",
+      "DIS",
+      "RAD",
+      "TAX",
+      "PTRATIO",
+      "B",
+      "LSTAT",
+      "MEDV"
+    ],
+    "createdDate" : "2026-04-09T09:53:26Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+
+      },
+      "issues" : [
+        {
+          "description" : "No target selected",
+          "severity" : "notReady"
+        },
+        {
+          "description" : "Data has 506 rows",
+          "severity" : "info"
+        },
+        {
+          "description" : "No features selected",
+          "severity" : "notReady"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "sampleCount" : 506
+      }
+    },
+    "dataSourceID" : "FCC15BC2-CFEF-47ED-A5A4-941A1F715BC3",
+    "dataURL" : "file:///Users/federico/Downloads/boston.csv",
+    "error" : {
+      "code" : 1000,
+      "domain" : "composer.error.domain",
+      "errorType" : "notReady",
+      "reason" : "No target selected"
+    },
+    "itemsCount" : 506
+  },
+  "dataURL" : "file:///Users/federico/Downloads/boston.csv",
+  "experimentIDs" : [
+    "EAA65FE0-5687-42B2-9DB4-60C5CB6DF36E",
+    "7A4D14F6-CB4D-44B0-AE1C-79145CB2209D",
+    "64604813-D1D0-4F67-ABDE-98B123F6BB7D",
+    "EE3EBA5C-6D79-40FE-8B0F-3BC76940A2A2",
+    "6030BDA6-9276-4699-8FA0-46CF79B9CF0C"
+  ],
+  "id" : "FCC15BC2-CFEF-47ED-A5A4-941A1F715BC3",
+  "modifiedDate" : "2026-04-09T10:02:04Z",
+  "pathType" : 0,
+  "preferredFilename" : "boston.csv",
+  "title" : "boston.csv",
+  "version" : "1.0"
+}

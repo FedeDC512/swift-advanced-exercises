@@ -53,6 +53,7 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 - [x] Text Classification using [News Topic Classification](https://www.kaggle.com/datasets/vrindakallu/ag-news-topic-classification/)
 - [x] Sound Classification using [Audio Cats and Dogs](https://www.kaggle.com/datasets/mmoreaux/audio-cats-and-dogs)
 - [x] Movies Recommendation
+- [x] Tabular Regression using [Boston House Prices](https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data)
 
 ## ARKit Exercises
 - [x] Cube Demo
