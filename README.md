@@ -1,8 +1,6 @@
 # Swift Advanced Exercises: Apple Foundation Program - Advanced Course
 
-Collection of Swift Exercises and Challenges done during the "Apple Foundation Program 2026 - Advanced Course" at the University of Palermo
-
-Collection of exercises completed during the first edition of the "Apple Foundation Program 2026 - Advanced Course" at the University of Palermo. These exercises cover **Presentation Challenges**, **SwiftUI**, **SpriteKit**, **MultiPeer Connectivity**, **Sketch**, **CoreML**, and **ARKit** and were developed using a Challenge-Based Learning approach.
+Collection of Swift Exercises and Challenges completed during the first edition of the "Apple Foundation Program 2026 - Advanced Course" at the University of Palermo. These exercises cover **Presentation Challenges**, **SwiftUI**, **SpriteKit**, **MultiPeer Connectivity**, **Sketch**, **CoreML**, and **ARKit** and were developed using a Challenge-Based Learning approach.
 
 ## Table of Contents
 
@@ -15,13 +13,13 @@ Collection of exercises completed during the first edition of the "Apple Foundat
 - [ARKit](#arkit-exercises)
 
 ## Presentation Challenges
-- [x] Explore watchOS Feature (Washing Hand)
+- [x] Explore watchOS Features (Handwashing Monitor)
 - [x] Explore watchOS Apps (Grocery, Carrot)
 - [x] Explore tvOS Apps (Night Sky, Strike! Ten Pin Bowling, TED)
-- [x] Explore tvOS Frameworks Presentation (Metal, SceneKit)
+- [x] Explore tvOS Frameworks (Metal, SceneKit)
 - [x] Analyze Gamification App (Hacktivate)
 - [x] Explore ARKit Apps (FAM: Time Capsule, AR Chess Games, Human Anatomy AR)
-- [ ] ARKit Guiding Questions
+- [x] ARKit Guiding Questions
 
 ## SwiftUI Exercises
 - [ ] My First App
