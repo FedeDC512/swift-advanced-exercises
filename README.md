@@ -22,9 +22,10 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 - [x] ARKit Guiding Questions
 
 ## SwiftUI Exercises
-- [ ] SwiftUI Fundamentals (Views, State, Binding, Lists and Persistence)
-- [ ] SwiftUI Navigation (TabView, NavigationStack, Sheet, FullScreenCover, NavigationSplitView)
-- [ ] MVVM Architecture (ObservableObject, StateObject and Data Flow)
+- [x] SwiftUI Fundamentals (Views, State, Binding, Lists and Persistence)
+- [x] SwiftUI Navigation (TabView, NavigationStack, Sheet, FullScreenCover, NavigationSplitView)
+- [x] MVVM Architecture (ObservableObject, StateObject and Data Flow)
+- [x] MVVM Refactoring (Apply MVVM to SwiftUI Fundamentals)
 - [ ] watchOS Fundamentals (Navigation, Notifications, Complications and WatchConnectivity)
 
 ## SpriteKit Exercises
