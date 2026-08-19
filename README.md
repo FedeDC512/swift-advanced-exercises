@@ -22,19 +22,20 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 - [x] ARKit Guiding Questions
 
 ## SwiftUI Exercises
-- [ ] My First App
-- [ ] Tabs, Navigation and Modals (SwiftUI Navigation)
-- [ ] MVVM Architecture (ObservableObject e MVVM)
-- [ ] watchOS Basics (TabView, SplitView, Toolbar Bottom, Notifications)
+- [ ] SwiftUI Fundamentals (Views, State, Binding, Lists and Persistence)
+- [ ] SwiftUI Navigation (TabView, NavigationStack, Sheet, FullScreenCover, NavigationSplitView)
+- [ ] MVVM Architecture (ObservableObject, StateObject and Data Flow)
+- [ ] watchOS Fundamentals (Navigation, Notifications, Complications and WatchConnectivity)
 
 ## SpriteKit Exercises
-- [ ] Felix Game
 - [ ] Runner with Hat
 - [ ] Gyroscope Gravity Flowers
-- [ ] Pinball Game
-- [ ] Pinball Game for watchOS
+- [ ] Felix Game
 - [ ] Felix Game for tvOS
 - [ ] Felix Game for watchOS
+- [ ] Pinball Game
+- [ ] Pinball Game for tvOS
+- [ ] Pinball Game for watchOS
 
 ## MultiPeer Connectivity Exercises
 - [x] MultiPeer Chat Demo
