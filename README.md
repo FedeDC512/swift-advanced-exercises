@@ -30,7 +30,7 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 
 ## SpriteKit Exercises
 - [x] Runner with Hat
-- [ ] Gyroscope Gravity Flowers
+- [x] Gyroscope Gravity Flowers
 - [ ] Felix Game
 - [ ] Felix Game for tvOS
 - [ ] Felix Game for watchOS
