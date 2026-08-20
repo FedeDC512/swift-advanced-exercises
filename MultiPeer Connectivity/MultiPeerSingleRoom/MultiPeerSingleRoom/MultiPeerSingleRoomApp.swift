@@ -2,7 +2,7 @@
 //  MultiPeerSingleRoomApp.swift
 //  MultiPeerSingleRoom
 //
-//  Created by Federico Agnello on 20/03/26.
+//  Created by Federico Agnello on 20/03/2026.
 //
 
 import SwiftUI

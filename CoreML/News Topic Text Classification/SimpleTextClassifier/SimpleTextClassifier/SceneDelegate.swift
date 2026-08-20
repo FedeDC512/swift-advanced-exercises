@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SimpleTextClassifier
 //
-//  Created by Federico Agnello on 27/03/26.
+//  Created by Federico Agnello on 27/03/2026.
 //
 
 import UIKit

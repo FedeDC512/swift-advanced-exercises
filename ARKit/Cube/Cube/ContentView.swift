@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Cube
 //
-//  Created by Federico Agnello on 01/04/26.
+//  Created by Federico Agnello on 01/04/2026.
 //
 
 import SwiftUI
