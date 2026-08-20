@@ -26,7 +26,7 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 - [x] SwiftUI Navigation (TabView, NavigationStack, Sheet, FullScreenCover, NavigationSplitView)
 - [x] MVVM Architecture (ObservableObject, StateObject and Data Flow)
 - [x] MVVM Refactoring (Apply MVVM to SwiftUI Fundamentals)
-- [ ] watchOS Fundamentals (Navigation, Notifications, Complications and WatchConnectivity)
+- [x] watchOS Fundamentals (Navigation and Core UI Patterns)
 
 ## SpriteKit Exercises
 - [ ] Runner with Hat
