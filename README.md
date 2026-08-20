@@ -41,7 +41,7 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 ## MultiPeer Connectivity Exercises
 - [x] MultiPeer Chat Demo
 - [x] MultiPeer Single-Room Chat
-- [ ] Peer-to-Peer Chat
+- [x] Peer-to-Peer Chat App
 - [x] Rock Paper Scissors for iOS and tvOS
 
 ## Sketch Exercises
@@ -58,4 +58,4 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 ## ARKit Exercises
 - [x] Cube Demo
 - [x] Missile Movement
-- [x] Car Movement
+- [x] Car Movement and Sound
