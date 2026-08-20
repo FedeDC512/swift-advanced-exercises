@@ -24,7 +24,7 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 ## SwiftUI Exercises
 - [x] SwiftUI Fundamentals (Views, State, Binding, Lists and Persistence)
 - [x] SwiftUI Navigation (TabView, NavigationStack, Sheet, FullScreenCover, NavigationSplitView)
-- [x] MVVM Architecture (ObservableObject, StateObject and Data Flow)
+- [x] MVVM Architecture Demo (ObservableObject, StateObject and Data Flow)
 - [x] MVVM Refactoring (Apply MVVM to SwiftUI Fundamentals)
 - [x] watchOS Fundamentals (Navigation and Core UI Patterns)
 
@@ -56,6 +56,6 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 - [x] Tabular Regression using [Boston House Prices](https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data)
 
 ## ARKit Exercises
-- [x] Cube Demo
+- [x] Simple Cube
 - [x] Missile Movement
 - [x] Car Movement and Sound

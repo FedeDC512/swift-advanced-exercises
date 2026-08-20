@@ -4,6 +4,7 @@
 //
 //  Created by Federico Agnello on 13/03/2026.
 //
+// Challenge: Put a hat on the runner
 
 import SwiftUI
 

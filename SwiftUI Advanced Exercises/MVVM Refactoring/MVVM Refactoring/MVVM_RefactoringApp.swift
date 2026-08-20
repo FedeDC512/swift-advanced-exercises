@@ -4,6 +4,7 @@
 //
 //  Created by Federico Agnello on 17/03/2026.
 //
+// Challenge: Apply the MVVM pattern to "My First App"
 
 import SwiftUI
 
