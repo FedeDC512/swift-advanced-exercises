@@ -29,7 +29,7 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 - [x] watchOS Fundamentals (Navigation and Core UI Patterns)
 
 ## SpriteKit Exercises
-- [ ] Runner with Hat
+- [x] Runner with Hat
 - [ ] Gyroscope Gravity Flowers
 - [ ] Felix Game
 - [ ] Felix Game for tvOS
