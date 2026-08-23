@@ -9,16 +9,18 @@ import SwiftUI
 import SpriteKit
 
 struct ContentView: View {
-    var scene: SKScene {
-        let scene = SKScene(fileNamed: "GameScene")
-        scene!.size = CGSize(width: 416, height: 496) // Apple Watch Series 11 46mm
-        scene?.scaleMode = .aspectFit
-        return scene!
-    }
-    
+    @StateObject private var scene: GameScene = {
+        let scene = SKScene(fileNamed: "GameScene") as! GameScene
+        scene.scaleMode = .aspectFit
+        return scene
+    }()
+
     var body: some View {
         SpriteView(scene: scene)
             .edgesIgnoringSafeArea(.all)
+            .onTapGesture {
+                scene.shouldFlip = true
+            }
     }
 }
 

@@ -6,9 +6,10 @@
 //
 
 import SpriteKit
+import Combine
 
-class GameScene: SKScene,SKPhysicsContactDelegate {
-    
+class GameScene: SKScene, SKPhysicsContactDelegate, ObservableObject {
+
     //CONSTANTS
     let circleA_1Category: UInt32 = 0
     let ballCategory: UInt32 = 1
@@ -28,6 +29,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
     let maxBallVelocity = 2000.0
     
     //VARS
+    @Published var shouldFlip = false
     var startMode = true
     var leftUp = false
     var rightUp = false
@@ -61,12 +63,12 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
     //SCORE MANAGER
     let scManager = scoreManager()
     
-    override func didMove(to view: SKView) {
+    override func sceneDidLoad() {
         physicsWorld.contactDelegate = self
         
         //BORDER
-        self.physicsBody = SKPhysicsBody (edgeLoopFrom: self.frame)
-        
+        self.physicsBody = SKPhysicsBody(edgeLoopFrom: self.frame)
+
         //NODES
         ball = childNode(withName: "ball") as! SKSpriteNode
         leftPad = childNode(withName: "leftPad") as! SKSpriteNode
@@ -125,51 +127,30 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         
         let dingAction = SKAction.playSoundFileNamed("ding", waitForCompletion: true)
         dingSound = SKAction.repeat(dingAction,count: 1)
-        
     }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let touch = touches.first
-        let touchLocation = touch!.location(in: self)
-        
+
+    // Any tap -> both flippers together (or launch in startMode)
+    func flipBoth() {
         if startMode {
-            if touchLocation.x < 0 {
-                launcher.run(launchBallAction, completion: {self.ball.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 500))})
-                startMode = false
-            }
-        }else {
-            if touchLocation.x < 0 {
-                if !leftUp {
-                    leftPad.physicsBody?.applyAngularImpulse(7)
-                    leftUp = true
-                    leftPad.run(padSound)
-                }
-                
-            }else if touchLocation.x > 0 {
-                if !rightUp {
-                    rightPad.physicsBody?.applyAngularImpulse(7)
-                    rightUp = true
-                    rightPad.run(padSound)
-                }
-            }
+            launcher.run(launchBallAction, completion: { self.ball.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 500)) })
+            startMode = false
+            return
         }
-    }
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let touch = touches.first
-        let touchLocation = touch!.location(in: self)
-        
-        if touchLocation.x < 0 {
-            if leftUp {
-                leftPad.run(leftDownLoop, completion: {self.leftUp = false})
-            }
-        }else if touchLocation.x > 0 {
-            if rightUp {
-                rightPad.run(rightDownLoop, completion: {self.rightUp = false})
-            }
+        if !leftUp {
+            leftPad.physicsBody?.applyAngularImpulse(7)
+            leftUp = true
+            leftPad.run(padSound)
         }
+        if !rightUp {
+            rightPad.physicsBody?.applyAngularImpulse(7)
+            rightUp = true
+            rightPad.run(padSound)
+        }
+        // auto-lower after a short hold (no press/release on watch)
+        leftPad.run(SKAction.sequence([SKAction.wait(forDuration: 0.2), leftDownLoop]), completion: { self.leftUp = false })
+        rightPad.run(SKAction.sequence([SKAction.wait(forDuration: 0.2), rightDownLoop]), completion: { self.rightUp = false })
     }
-    
+
     func didBegin(_ contact: SKPhysicsContact) {
         let sum = (contact.bodyA.node?.physicsBody?.categoryBitMask)! + (contact.bodyB.node?.physicsBody?.categoryBitMask)!
         switch sum {
@@ -192,8 +173,8 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
             ball.run(SKAction.move(to: startMarker.position, duration: 0))
             startMode = true
             star0.isHidden = false
-            circleA.physicsBody?.categoryBitMask = circleA_1Category  //0
-            
+            circleA.physicsBody?.categoryBitMask = circleA_1Category //0
+
         case circle0Category + ballCategory: //32 + 1
             scManager.incScore(points: 10)
             circle0.run(circle0Blink)
@@ -203,7 +184,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
             scManager.incScore(points: 20)
             node!.run(circle1Blink)
             
-        case circle2Category + ballCategory:  //128 + 1
+        case circle2Category + ballCategory: //128 + 1
             let node = (contact.bodyA.node?.physicsBody?.categoryBitMask == circle2Category) ? contact.bodyA.node : contact.bodyB.node
             scManager.incScore(points: 30)
             node!.run(circle2Blink)
@@ -215,7 +196,8 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
                 scManager.incScore(points: 100)
                 ball.run(dingSound)
             }
-        case circleA_2Category + ballCategory:   //512 + 1
+            
+        case circleA_2Category + ballCategory: //512 + 1
             scManager.incScore(points: 40)
             circleA.run(circle0Blink)
             
@@ -224,10 +206,10 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         }
         score.text = String(scManager.getScore())
     }
-    
+
     func didEnd(_ contact: SKPhysicsContact) {
         let sum = (contact.bodyA.node?.physicsBody?.categoryBitMask)! + (contact.bodyB.node?.physicsBody?.categoryBitMask)!
-        if sum == star0_star5Category + ballCategory {  //256 + 1
+        if sum == star0_star5Category + ballCategory { //256 + 1
             let node = (contact.bodyA.node?.physicsBody?.categoryBitMask == star0_star5Category) ? contact.bodyA.node : contact.bodyB.node
             if node?.name == "star0" {
                 node?.isHidden = true
@@ -237,13 +219,18 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
             }
         }
     }
-    
-    func padStop(node:  SKNode){
+
+    func padStop(node: SKNode){
         node.physicsBody!.angularVelocity = 0
         node.physicsBody!.velocity = CGVector(dx: 0, dy: 0)
     }
-    
+
     override func update(_ currentTime: TimeInterval) {
+        if shouldFlip {
+            shouldFlip = false
+            flipBoth()
+        }
+
         if fabs(Double((ball.physicsBody?.velocity.dx)!)) > maxBallVelocity {
             ball.physicsBody?.velocity.dx = CGFloat(Int((ball.physicsBody?.velocity.dx)!) < 0 ? -maxBallVelocity : maxBallVelocity)
         }

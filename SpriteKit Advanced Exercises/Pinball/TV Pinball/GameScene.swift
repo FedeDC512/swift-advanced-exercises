@@ -128,45 +128,31 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         
     }
     
+    // Any tap -> both flippers together (or launch in startMode)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let touch = touches.first
-        let touchLocation = touch!.location(in: self)
-        
         if startMode {
-            if touchLocation.x < 0 {
-                launcher.run(launchBallAction, completion: {self.ball.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 500))})
-                startMode = false
+            launcher.run(launchBallAction, completion: {self.ball.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 500))})
+            startMode = false
+        } else {
+            if !leftUp {
+                leftPad.physicsBody?.applyAngularImpulse(7)
+                leftUp = true
+                leftPad.run(padSound)
             }
-        }else {
-            if touchLocation.x < 0 {
-                if !leftUp {
-                    leftPad.physicsBody?.applyAngularImpulse(7)
-                    leftUp = true
-                    leftPad.run(padSound)
-                }
-                
-            }else if touchLocation.x > 0 {
-                if !rightUp {
-                    rightPad.physicsBody?.applyAngularImpulse(7)
-                    rightUp = true
-                    rightPad.run(padSound)
-                }
+            if !rightUp {
+                rightPad.physicsBody?.applyAngularImpulse(7)
+                rightUp = true
+                rightPad.run(padSound)
             }
         }
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let touch = touches.first
-        let touchLocation = touch!.location(in: self)
-        
-        if touchLocation.x < 0 {
-            if leftUp {
-                leftPad.run(leftDownLoop, completion: {self.leftUp = false})
-            }
-        }else if touchLocation.x > 0 {
-            if rightUp {
-                rightPad.run(rightDownLoop, completion: {self.rightUp = false})
-            }
+        if leftUp {
+            leftPad.run(leftDownLoop, completion: {self.leftUp = false})
+        }
+        if rightUp {
+            rightPad.run(rightDownLoop, completion: {self.rightUp = false})
         }
     }
     
