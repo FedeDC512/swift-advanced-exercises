@@ -35,8 +35,8 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 - [x] Felix Game for tvOS
 - [x] Felix Game for watchOS
 - [x] Pinball Game Demo
-- [ ] Pinball Game for tvOS
-- [ ] Pinball Game for watchOS
+- [x] Pinball Game for tvOS
+- [x] Pinball Game for watchOS
 
 ## MultiPeer Connectivity Exercises
 - [x] MultiPeer Chat Demo
