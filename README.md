@@ -31,10 +31,10 @@ Collection of Swift Exercises and Challenges completed during the first edition 
 ## SpriteKit Exercises
 - [x] Runner with Hat
 - [x] Gyroscope Gravity Flowers
-- [x] Felix Game
+- [x] Felix Game Demo
 - [x] Felix Game for tvOS
 - [x] Felix Game for watchOS
-- [ ] Pinball Game
+- [x] Pinball Game Demo
 - [ ] Pinball Game for tvOS
 - [ ] Pinball Game for watchOS
 
